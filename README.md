@@ -13,9 +13,8 @@ The goal for this exercise is to create a simple feature store.
 
 ### Setup
 
-* There's a Kafka streaming for order events. Orders are made by clients, prepared by restaurants and delivered by drivers.
-  * kafka #1: a49784be7f36511e9a6b60a341003dc2-1378330561.us-east-1.elb.amazonaws.com:9092
-  * kafka #2: a4996369ef36511e9a6b60a341003dc2-1583999828.us-east-1.elb.amazonaws.com:9092
+* There's a Kafka streaming for order, client, consumer and restaurant events. Orders are made by clients, prepared by restaurants and delivered by drivers.
+  * The address for this kafka cluster is: a49784be7f36511e9a6b60a341003dc2-1378330561.us-east-1.elb.amazonaws.com:9092
 * Data needs to be consistent, we can’t lose anything.
 * This processing pipeline needs to be scalable.
 
