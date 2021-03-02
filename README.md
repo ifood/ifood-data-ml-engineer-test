@@ -14,10 +14,10 @@ The goal for this exercise is to create a simple feature store.
 ### Setup
 
 * There are four source files, available at:
-** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz
-** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz
-** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz
-** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/status.json.gz
+  - https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz
+  - https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz
+  - https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz
+  - https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/status.json.gz
 * Please emulate a streaming source based on those files
 * Data needs to be consistent, we can’t lose anything.
 * This processing pipeline needs to be scalable.
