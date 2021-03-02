@@ -13,8 +13,12 @@ The goal for this exercise is to create a simple feature store.
 
 ### Setup
 
-* There's a Kafka streaming for order, client, consumer and restaurant events. Orders are made by clients, prepared by restaurants and delivered by drivers.
-  * The address for this kafka cluster is: a49784be7f36511e9a6b60a341003dc2-1378330561.us-east-1.elb.amazonaws.com:9092
+* There are four source files, available at:
+** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz
+** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz
+** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz
+** https://ifood-data-architect-test-source.s3-sa-east-1.amazonaws.com/status.json.gz
+* Please emulate a streaming source based on those files
 * Data needs to be consistent, we can’t lose anything.
 * This processing pipeline needs to be scalable.
 
