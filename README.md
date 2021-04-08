@@ -21,6 +21,7 @@ The goal for this exercise is to create a simple feature store.
 * Please emulate a streaming source based on those files
 * Data needs to be consistent, we can’t lose anything.
 * This processing pipeline needs to be scalable.
+* You should exercise the realtime aggregation of data, offline storage/serving and online storage/serving.
 
 Feel free to use any solution to process and store this data.
 
